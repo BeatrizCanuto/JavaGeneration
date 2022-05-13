@@ -20,6 +20,6 @@ public class ModeloCliente {
     public void status() {
     	System.out.println("Nome do cliente: " + this.nome);
     	System.out.println("Idade: " + this.idade);
-    	System.out.println("Reserva confirmada: " + this.pagamento);
+    	System.out.println("Reserva confirmada: " + this.pagamento); 
     }
 }

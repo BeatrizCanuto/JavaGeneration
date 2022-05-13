@@ -10,7 +10,7 @@ public class Laco3 {
 		int contadorI= 0, contadorJ= 0;
 		
 		
-		while(x>-99){
+		while(x>-99){   
 			System.out.println("Digite sua idade: ");
 			x = ler.nextInt();
 			if(x<21) {

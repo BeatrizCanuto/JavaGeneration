@@ -35,7 +35,7 @@ public class Aviao {
 		aviao3.voando = true;
 		aviao3.status();
 		aviao3.voar();
-		System.out.println("");
+		System.out.println("");  
 		
 	}
 

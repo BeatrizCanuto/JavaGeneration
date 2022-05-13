@@ -24,7 +24,7 @@ public class Cliente {
 			cliente2.quarto = 1888;
 			cliente2.pagamento = false;
 			cliente2.status();
-			cliente2.reserva();
+			cliente2.reserva(); 
 			System.out.println("");
 			
 			

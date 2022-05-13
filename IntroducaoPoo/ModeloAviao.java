@@ -6,7 +6,7 @@ public class ModeloAviao {
     int idade;
     boolean manutencao;
     boolean voando;
-    
+      
     
     
     public void voar() {
