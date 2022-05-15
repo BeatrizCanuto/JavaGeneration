@@ -1,14 +1,14 @@
 package ProjetoFofoPet;
 
-public class FofoPet {
+public class FofoPet extends MoldeAdotante {
 		
 		public static void main(String[] args) {
 			
-			CadastroFofoPet fofopet1 = new CadastroFofoPet();
-			CadastroFofoPet fofopet2 = new CadastroFofoPet();
-			CadastroFofoPet fofopet3 = new CadastroFofoPet();
-			CadastroFofoPet fofopet4 = new CadastroFofoPet();
-			CadastroFofoPet fofopet5 = new CadastroFofoPet();
+			MoldePet fofopet1 = new MoldePet();
+			MoldePet fofopet2 = new MoldePet();
+			MoldePet fofopet3 = new MoldePet();
+			MoldePet fofopet4 = new MoldePet();
+			MoldePet fofopet5 = new MoldePet();
 			
 			System.out.println("-----------------");
 			 fofopet1.fofoPet = "Vicent";
@@ -18,6 +18,7 @@ public class FofoPet {
 			 fofopet1.porte = "G";
 			 fofopet1.aceitaOutroPet = true;
 			 fofopet1.status();
+			 fofopet1.restrição();
 			System.out.println("");
 			
 			
@@ -29,6 +30,7 @@ public class FofoPet {
 			 fofopet2.porte = "M";
 			 fofopet2.aceitaOutroPet = true;
 			 fofopet2.status();
+			 fofopet2.restrição();
 			System.out.println("");
 			
 			
@@ -40,6 +42,7 @@ public class FofoPet {
 			 fofopet3.porte = "P";
 			 fofopet3.aceitaOutroPet = true;
 			 fofopet3.status();
+			 fofopet3.restrição();
 			System.out.println("");
 			
 			
@@ -51,6 +54,7 @@ public class FofoPet {
 			 fofopet4.porte = "G";
 			 fofopet4.aceitaOutroPet = true;
 			 fofopet4.status();
+			 fofopet4.restrição();
 			System.out.println("");
 			
 			
@@ -62,6 +66,7 @@ public class FofoPet {
 			 fofopet5.porte = "P";
 			 fofopet5.aceitaOutroPet = false;
 			 fofopet5.status();
+			 fofopet5.restrição();
 			System.out.println("");
 			
 		}
