@@ -3,17 +3,17 @@ package ProjetoFofoPet;
 public class SuperClass {
 	
 	
-	protected String fofoPetter;
-	protected int idade;
+	protected String nome;
+	public int idade;
 	protected String endereço;
 	
 	
 	
 	public String getFofoPetter() {
-		return fofoPetter;
+		return nome;
 	}
-	public void setFofoPetter(String fofoPetter) {
-		this.fofoPetter = fofoPetter;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 	public int getIdade() {
 		return idade;

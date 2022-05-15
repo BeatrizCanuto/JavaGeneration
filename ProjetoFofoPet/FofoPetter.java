@@ -8,10 +8,10 @@ public class FofoPetter extends SuperClass{
 		MoldeAdotante fofopetter3 = new MoldeAdotante();
 		MoldeAdotante fofopetter4 = new MoldeAdotante();
 		MoldeAdotante fofopetter5 = new MoldeAdotante();
-		
+	
 		
 		System.out.println("-----------------");
-		 fofopetter1.fofoPetter = "Anderson";
+		 fofopetter1.nome = "Anderson";
 		 fofopetter1.idade = 18;
 		 fofopetter1.endereço = "Rua Herança da Silva, 487 - SP";
 		 fofopetter1.paiMaeDePet = true;
@@ -24,7 +24,7 @@ public class FofoPetter extends SuperClass{
 		
 		
 		System.out.println("-----------------");
-		 fofopetter2.fofoPetter = "Leo";
+		 fofopetter2.nome = "Leo";
 		 fofopetter2.idade = 30;
 		 fofopetter2.endereço = "Av. Gertulio Tavares Alves, 32 - SP";
 		 fofopetter2.paiMaeDePet = false;
@@ -36,11 +36,11 @@ public class FofoPetter extends SuperClass{
 		
 		
 		System.out.println("-----------------");
-		 fofopetter3.fofoPetter = "Augusto";
+		 fofopetter3.nome = "Augusto";
 		 fofopetter3.idade = 25;
 		 fofopetter3.endereço = "Rua Professor Cesar, 10 - SP";
 		 fofopetter3.paiMaeDePet = true;
-		 fofopetter3.camasQuentinhas = 1;
+		 fofopetter3.camasQuentinhas = 5;
 		 fofopetter3.contato = "(11) 95678-4321";
 		 fofopetter3.status();
 		 fofopetter3.disponibilidade();
@@ -48,7 +48,7 @@ public class FofoPetter extends SuperClass{
 		
 		
 		System.out.println("-----------------");
-		 fofopetter4.fofoPetter = "Betina";
+		 fofopetter4.nome = "Betina";
 		 fofopetter4.idade = 27;
 		 fofopetter4.endereço = "Rua Mario Widemann, 17 - RS";
 		 fofopetter4.paiMaeDePet = true;
@@ -60,7 +60,7 @@ public class FofoPetter extends SuperClass{
 		
 		
 		System.out.println("-----------------");
-		 fofopetter5.fofoPetter = "Tia Gen";
+		 fofopetter5.nome = "Tia Gen";
 		 fofopetter5.idade = 40;
 		 fofopetter5.endereço = "Rua Conego Eugenio Leite, 623 - SP";
 		 fofopetter5.paiMaeDePet = true;
@@ -70,16 +70,7 @@ public class FofoPetter extends SuperClass{
 		 fofopetter5.disponibilidade();
 		System.out.println("");
 		
-		
-		
-		System.out.println("-----------------");
-		 fofopetter5.setIdade(20);
-		 fofopetter5.endereço = "";
-		System.out.println(fofopetter5.getIdade());
-		
-		 
-		
-		
+
 	}
 
 }

@@ -1,13 +1,11 @@
 package ProjetoFofoPet;
 
-public class MoldePet {
+public class MoldePet extends SuperClass {
 
-	String fofoPet;
-    int idade;
-    String ma;
-    String endereço;
-    String porte;
-    boolean aceitaOutroPet;
+	
+    	public String ma;
+    	public String porte;
+    	public boolean aceitaOutroPet;
     
       
     public void restrição () {
@@ -19,7 +17,7 @@ public class MoldePet {
     }
     public void status() {
     	System.out.println("Tudo que você precisa saber sobre os FofoPets!\n");
-    	System.out.println("Nome: " + this.fofoPet);
+    	System.out.println("Nome: " + this.nome);
     	System.out.println("Idade: " + this.idade + this.ma);
     	System.out.println("Endereço: " + this.endereço);
     	System.out.println("Porte: " + this.porte);

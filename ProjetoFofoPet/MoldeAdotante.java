@@ -2,9 +2,9 @@ package ProjetoFofoPet;
 
 public class MoldeAdotante extends SuperClass{
 
-		protected boolean paiMaeDePet;
-		protected int camasQuentinhas;
-		protected String contato;
+		public boolean paiMaeDePet;
+		public int camasQuentinhas;
+		public String contato;
       
     public boolean isPaiMaeDePet() {
 			return paiMaeDePet;
@@ -40,7 +40,7 @@ public class MoldeAdotante extends SuperClass{
     
     public void status() {
     	System.out.println("Tudo que precisamos saber sobre o FofoPetter...\n");
-    	System.out.println("Nome: " + this.fofoPetter);
+    	System.out.println("Nome: " + this.nome);
     	System.out.println("Idade: " + this.idade);
     	System.out.println("Endereço: " + this.endereço);
     	System.out.println("Você tem algum pet em casa? " + this.paiMaeDePet);

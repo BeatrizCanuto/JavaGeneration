@@ -11,7 +11,7 @@ public class FofoPet extends MoldeAdotante {
 			MoldePet fofopet5 = new MoldePet();
 			
 			System.out.println("-----------------");
-			 fofopet1.fofoPet = "Vicent";
+			 fofopet1.nome = "Vicent";
 			 fofopet1.idade = 5;
 			 fofopet1.ma = " anos";
 			 fofopet1.endereço = "Que tal a sua casa...";
@@ -23,7 +23,7 @@ public class FofoPet extends MoldeAdotante {
 			
 			
 			System.out.println("-----------------");
-			 fofopet2.fofoPet = "Van";
+			 fofopet2.nome = "Van";
 			 fofopet2.idade = 2;
 			 fofopet2.ma = " meses";
 			 fofopet2.endereço = "Olha que coincidencia, o mesmo que o seu!";
@@ -35,7 +35,7 @@ public class FofoPet extends MoldeAdotante {
 			
 			
 			System.out.println("-----------------");
-			 fofopet3.fofoPet = "Gogh";
+			 fofopet3.nome = "Gogh";
 			 fofopet3.idade = 1;
 			 fofopet3.ma = " mes";
 			 fofopet3.endereço = "Hum... o seu?";
@@ -47,7 +47,7 @@ public class FofoPet extends MoldeAdotante {
 			
 			
 			System.out.println("-----------------");
-			 fofopet4.fofoPet = "Theo";
+			 fofopet4.nome = "Theo";
 			 fofopet4.idade = 12;
 			 fofopet4.ma = " anos";
 			 fofopet4.endereço = "Queria de frente pra praia pra eu curtir minha aposentadoria";
@@ -59,7 +59,7 @@ public class FofoPet extends MoldeAdotante {
 			
 			
 			System.out.println("-----------------");
-			 fofopet5.fofoPet = "Mauricio";
+			 fofopet5.nome = "Mauricio";
 			 fofopet5.idade = 3;
 			 fofopet5.ma = " anos";
 			 fofopet5.endereço = "Caraca, é literalmente igualzinho ao seu!";
