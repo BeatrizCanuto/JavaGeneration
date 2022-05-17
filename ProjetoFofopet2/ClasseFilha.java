@@ -29,7 +29,7 @@ import java.util.Scanner;
 		pet1.setCor(ler.next());
 		
 		System.out.print("Peso: ");
-		pet1.setExceptions(ler.nextInt());
+		pet1.setException(ler.nextInt());
 		
 		System.out.print("Qual o porte (P, M, G): ");
 		pet1.setPorte(ler.next());
@@ -37,11 +37,11 @@ import java.util.Scanner;
 		System.out.print("Aceita outro pet? (sim ou não): ");
 		pet1.setAceitaOutroPet(ler.next());
 		
-	   // MPRIMIR ATRIBUTOS *******************************
+	   // IMPRIMIR ATRIBUTOS *******************************
 		
 		pet1.status();
 	    pet1.finalizar(); 
-		
+	
 
 		}
 	}

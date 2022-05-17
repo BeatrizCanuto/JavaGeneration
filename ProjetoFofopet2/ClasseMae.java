@@ -12,21 +12,30 @@ public class ClasseMae implements Interface {
 	private int peso;
 	private String porte;
 	private String aceitaOutroPet;
-	private int exceptions;
+	private int exception;
 	
 	// MÉTODOS *******************************
-	
-	public void exceptions() {
-		try {
-			setPeso(ler.nextInt());
-			
-		}catch(InputMismatchException erro) {
 
-            System.out.println("Erro! Você só pode informar números inteiros! " + erro);
-
-			
+	public int getException() {
+			return exception;
 		}
-	}
+
+
+
+		public void setException(int exception) {
+			this.exception = exception;
+			try {
+				System.out.println("Porte: ");
+				setException(ler.nextInt());
+				this.peso = exception;
+			}catch(Exception e) {
+				System.out.println("Erro!!!\nExceção: " + e);
+				System.out.println("Porte: ");
+				
+				}
+		}
+
+
 
 	public String getNome() {
 		return nome;
@@ -87,13 +96,7 @@ public class ClasseMae implements Interface {
 	public void setIdadeMesAno(String idadeMesAno) {
 		this.idadeMesAno = idadeMesAno;
 	}
-	public int getExceptions() {
-		return exceptions;
-	}
-
-	public void setExceptions(int exceptions) {
-		this.exceptions = exceptions;
-	}
+	
 	// SOBRECARGA *******************************
 	
 	private String idadeMesAno;
@@ -105,6 +108,7 @@ public class ClasseMae implements Interface {
 	}	
 	
 	// SOBREPOSIÇÃO *******************************
+	
 	
     @Override
 	public void status() {
