@@ -4,7 +4,9 @@ import java.util.*;
 
 public class ClasseMae implements Interface {   
 	Scanner ler = new Scanner(System.in);
-
+	
+		// ATRIBUTOS  *******************************
+	
 	private String nome;
 	private String idade;
 	private String endereço;
@@ -13,7 +15,7 @@ public class ClasseMae implements Interface {
 	private String porte;
 	private String aceitaOutroPet;
 
-	// MÉTODOS *******************************
+		// MÉTODOS E ENCAPSULAMENTO *******************************
 
 	public String getNome() {
 		return nome;
@@ -75,7 +77,7 @@ public class ClasseMae implements Interface {
 		this.idadeMesAno = idadeMesAno;
 	}
 
-	// SOBRECARGA *******************************
+		// SOBRECARGA *******************************
 
 	private String idadeMesAno;
 
@@ -84,12 +86,17 @@ public class ClasseMae implements Interface {
 		this.idadeMesAno = idade + " " + nome;
 		return idadeMesAno;
 	}
+	public String concatenar(int idade, String nome) {
 
-	// SOBREPOSIÇÃO *******************************
+		this.idadeMesAno = idade + " " + nome;
+		return idadeMesAno;
+	}
+
+		// SOBREPOSIÇÃO *******************************
 
 	@Override
 	public void status() {
-		System.out.println("Tudo que você precisa saber sobre os FofoPets!\n");
+		System.out.println("\nTudo que você precisa saber sobre os FofoPets!\n");
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Idade: " + this.idadeMesAno);
 		System.out.println("Endereço: Espero encontrar o meu logo...");
@@ -105,13 +112,20 @@ public class ClasseMae implements Interface {
 		System.out.println("\n___CADASTRO CONCLUIDO___\n");
 
 		System.out.println(
-
-				"   /\\                    \r\n" + "  //\\            //\\    \r\n" + " //...)_.------._,/.\\   \r\n"
-						+ " \\.^,'_.\\....//._..\\)   \r\n" + "  `././O\\|...|/O\\../    \r\n"
-						+ "     \\.\\_/\\_//./       \r\n" + "      \\..'.._.`./        \r\n"
-						+ "       (.:(_):.)          \r\n" + "       `._.-._,'          \r\n"
-						+ "          \\//            \r\n" + "..........................\r\n");
-
+				
+		         "   /\\                    \r\n"
+				+"  //\\            //\\    \r\n"
+				+" //...)_.------._,/.\\   \r\n"
+				+" \\.^,'_.\\....//._..\\)   \r\n"
+				+"  `././O\\|...|/O\\../    \r\n"
+				+"     \\.\\_/\\_//./       \r\n"
+				+"      \\..'.._.`./        \r\n"
+				+"       (.:(_):.)          \r\n"
+				+"       `._.-._,'          \r\n"
+				+"          \\//            \r\n"
+				+"..........................\r\n");
+		
+		
 	}
 
 }
