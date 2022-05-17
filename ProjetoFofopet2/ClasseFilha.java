@@ -2,6 +2,7 @@ package ProjetoFofopet2;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 	public class ClasseFilha extends ClasseMae{
@@ -28,9 +29,13 @@ import java.util.Scanner;
 		System.out.print("Cor: ");
 		pet1.setCor(ler.next());
 		
-		System.out.print("Peso: ");
-		pet1.setException(ler.nextInt());
+		try {
 		
+		System.out.print("Peso: ");
+		pet1.setPeso(ler.nextInt());
+		}catch (InputMismatchException erro){
+			System.out.println("Erro: " + erro);
+		}
 		System.out.print("Qual o porte (P, M, G): ");
 		pet1.setPorte(ler.next());
 		

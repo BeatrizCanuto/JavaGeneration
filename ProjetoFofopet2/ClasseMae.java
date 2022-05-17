@@ -22,7 +22,7 @@ public class ClasseMae implements Interface {
 
 
 
-		public void setException(int exception) {
+		/*public void setException(int exception) {
 			this.exception = exception;
 			try {
 				System.out.println("Porte: ");
@@ -33,7 +33,7 @@ public class ClasseMae implements Interface {
 				System.out.println("Porte: ");
 				
 				}
-		}
+		}*/
 
 
 
