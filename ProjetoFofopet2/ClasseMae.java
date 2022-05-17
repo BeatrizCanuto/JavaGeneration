@@ -2,7 +2,7 @@ package ProjetoFofopet2;
 
 import java.util.*;
 
-public class ClasseMae implements Interface {
+public class ClasseMae implements Interface {   
 	Scanner ler = new Scanner(System.in);
 
 	private String nome;
@@ -12,30 +12,8 @@ public class ClasseMae implements Interface {
 	private int peso;
 	private String porte;
 	private String aceitaOutroPet;
-	private int exception;
-	
+
 	// MÉTODOS *******************************
-
-	public int getException() {
-			return exception;
-		}
-
-
-
-		/*public void setException(int exception) {
-			this.exception = exception;
-			try {
-				System.out.println("Porte: ");
-				setException(ler.nextInt());
-				this.peso = exception;
-			}catch(Exception e) {
-				System.out.println("Erro!!!\nExceção: " + e);
-				System.out.println("Porte: ");
-				
-				}
-		}*/
-
-
 
 	public String getNome() {
 		return nome;
@@ -96,21 +74,20 @@ public class ClasseMae implements Interface {
 	public void setIdadeMesAno(String idadeMesAno) {
 		this.idadeMesAno = idadeMesAno;
 	}
-	
+
 	// SOBRECARGA *******************************
-	
+
 	private String idadeMesAno;
 
 	public String concatenar(String idade, String nome) {
 
 		this.idadeMesAno = idade + " " + nome;
 		return idadeMesAno;
-	}	
-	
+	}
+
 	// SOBREPOSIÇÃO *******************************
-	
-	
-    @Override
+
+	@Override
 	public void status() {
 		System.out.println("Tudo que você precisa saber sobre os FofoPets!\n");
 		System.out.println("Nome: " + this.nome);
@@ -120,26 +97,21 @@ public class ClasseMae implements Interface {
 		System.out.println("Peso: " + this.peso + " kg");
 		System.out.println("Porte: " + this.porte);
 		System.out.println("Aceita outro pet? " + this.aceitaOutroPet);
-		
-	}@Override
-	public void finalizar() {
-		System.out.println("\n___CADASTRO CONCLUIDO___\n");
-		
-		System.out.println(
-				
-		         "   /\\                    \r\n"
-				+"  //\\            //\\    \r\n"
-				+" //...)_.------._,/.\\   \r\n"
-				+" \\.^,'_.\\....//._..\\)   \r\n"
-				+"  `././O\\|...|/O\\../    \r\n"
-				+"     \\.\\_/\\_//./       \r\n"
-				+"      \\..'.._.`./        \r\n"
-				+"       (.:(_):.)          \r\n"
-				+"       `._.-._,'          \r\n"
-				+"          \\//            \r\n"
-				+"..........................\r\n");
-		
+
 	}
 
-	
+	@Override
+	public void finalizar() {
+		System.out.println("\n___CADASTRO CONCLUIDO___\n");
+
+		System.out.println(
+
+				"   /\\                    \r\n" + "  //\\            //\\    \r\n" + " //...)_.------._,/.\\   \r\n"
+						+ " \\.^,'_.\\....//._..\\)   \r\n" + "  `././O\\|...|/O\\../    \r\n"
+						+ "     \\.\\_/\\_//./       \r\n" + "      \\..'.._.`./        \r\n"
+						+ "       (.:(_):.)          \r\n" + "       `._.-._,'          \r\n"
+						+ "          \\//            \r\n" + "..........................\r\n");
+
+	}
+
 }
