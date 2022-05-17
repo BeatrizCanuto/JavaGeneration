@@ -1,6 +1,6 @@
 package ProjetoFofoPet; 
 
-public class FofoPetter extends SuperClass{
+public class FofoPetter extends MoldeAdotante {
 	public static void main(String[] args) {
 		
 		MoldeAdotante fofopetter1 = new MoldeAdotante();
@@ -69,8 +69,16 @@ public class FofoPetter extends SuperClass{
 		 fofopetter5.status();
 		 fofopetter5.disponibilidade();
 		System.out.println("");
-		
 
+		  
+	
 	}
-
 }
+
+
+	
+
+
+	
+
+

@@ -1,6 +1,6 @@
 package ProjetoFofoPet;
 
-public class FofoPet extends MoldeAdotante {
+public class FofoPet extends MoldePet {
 		
 		public static void main(String[] args) {
 			
@@ -10,6 +10,8 @@ public class FofoPet extends MoldeAdotante {
 			MoldePet fofopet4 = new MoldePet();
 			MoldePet fofopet5 = new MoldePet();
 			
+			
+		
 			System.out.println("-----------------");
 			 fofopet1.nome = "Vicent";
 			 fofopet1.idade = 5;
@@ -59,7 +61,7 @@ public class FofoPet extends MoldeAdotante {
 			
 			
 			System.out.println("-----------------");
-			 fofopet5.nome = "Mauricio";
+			 fofopet5.nome = "Maulicio de Souza";
 			 fofopet5.idade = 3;
 			 fofopet5.ma = " anos";
 			 fofopet5.endereço = "Caraca, é literalmente igualzinho ao seu!";
@@ -69,6 +71,8 @@ public class FofoPet extends MoldeAdotante {
 			 fofopet5.restrição();
 			System.out.println("");
 			
+			}
+			
 		}
 
-	}
+	
